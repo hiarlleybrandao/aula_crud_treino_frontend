@@ -9,9 +9,11 @@ export default function UsuariosPage() {
         setUsuarios(response.data);
     }
 
-    useEffect(() => {
-        getUsuarios();
-    }, []);
+    // useEffect(() => {
+    //     getUsuarios();
+    // }, []); para os usuários sempre serem carregados na tela assim que for aberta
+
+    
 
     return (
         <div className="container">
